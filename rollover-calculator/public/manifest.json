@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Calculadora de Rollover",
+  "version": "1.0.0",
+  "description": "Una amigable calculadora de rollover con un diseño ligero y moderno. Hecho por Leonardo Rivero",
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "commands": {
+    "open_popup": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "Abrir calculadora de rollover"
+    }
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": ["storage"]
+}
