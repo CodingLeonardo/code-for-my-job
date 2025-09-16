@@ -6,7 +6,7 @@ My work involves providing the kindest and most empathetic service to users of a
 
 ## Proposed code pieces (for now):
 
-- Rollover calculator (I'm building it...🚧)
+- Rollover calculator (Done...just a few details missing 🏁🤏)
   <br />
   A tool to calculate the bonus amount a user needs to wager before they can withdraw their bonus funds.
 
