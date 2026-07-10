@@ -1,21 +1,34 @@
 # Code for my job 🎰
 
-## Overview
+## Resumen
 
-My work involves providing the kindest and most empathetic service to users of a platform, so-called "where everything is played at random." Therefore, I often need tools that allow me to streamline my user interactions in the most efficient way. This repository will compile various problems, and I will solve them with software.
+Mi trabajo consiste en brindar la atención más amable y empática a los usuarios de una plataforma, la llamada "donde todo se juega al azar". Por eso, a menudo necesito herramientas que me permitan agilizar mis interacciones con los usuarios de la manera más eficiente. Este repositorio compila varios problemas que resuelvo con software.
 
-## Proposed code pieces (for now):
+## Herramientas
 
-- Rollover calculator (Done...just a few details missing 🏁🤏)
-  <br />
-  A tool to calculate the bonus amount a user needs to wager before they can withdraw their bonus funds.
+### PintarTransacciones (`excel-macros/`)
 
-- Individual Metrics Visualizer: (For later...🏗️)
-  <br />
-  A tool to visualize individual user metrics, helping to identify patterns and improve user experience.
+Macro de Excel VBA que colorea automáticamente transacciones según su tipo (depósitos, retiros, bonos, giros gratis, rollbacks). Incluye:
 
-## Author
+- **PintarTransacciones_Excel.bas** — Script del macro listo para importar.
+- **PERSONAL_MACROS.xlsm** — Libro de macros personal con el módulo ya instalado.
+- **README.md** — Instrucciones de uso en español dentro de `excel-macros/`.
 
-- Website - [Leonardo Rivero](https://codingleonardo.github.io/)
-- DevChallenges.io - [@CodingLeonardo](https://devchallenges.io/profile/8c0bdef8-0f64-4c92-8640-bcae8d05fb4b)
-- Twitter - [@CodingLeonardo](https://www.twitter.com/CodingLeonardo)
+### Calculadora de Rollover (`rollover-calculator/`)
+
+Calcula el monto que un usuario necesita jugar antes de poder retirar los fondos de un bono.
+
+### Bonos CS (Listo... closed source🔒)
+
+Aplicación web para calcular, generar y administrar mensajes de bonos promocionales. Construida con Next.js, incluye:
+
+- **Calculadora dinámica** — formularios que se adaptan según el tipo de bono (bienvenida, recarga, llamada, cumpleaños, otros)
+- **Panel admin** — CRUD de reglas, monedas, plantillas, configuración de rollovers y créditos máximos
+- **Motor de reglas** — calcula montos y genera mensajes formateados automáticamente
+- **Export/Import** — respaldo y restauración completa de la configuración
+
+## Autor
+
+- Sitio web — [Leonardo Rivero](https://codingleonardo.github.io/)
+- DevChallenges.io — [@CodingLeonardo](https://devchallenges.io/profile/8c0bdef8-0f64-4c92-8640-bcae8d05fb4b)
+- Twitter — [@CodingLeonardo](https://www.twitter.com/CodingLeonardo)
